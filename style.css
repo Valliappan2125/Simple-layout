@@ -12,12 +12,23 @@ header{
     padding: 20px;
 }
 
+main h1{
+    color: red;
+    text-align: center;
+}
+
+main p{
+    color: blue;
+}
+
 nav{
     display: flex;
     column-gap: 30px;
 }
 
 nav p{
+    font-size: 18px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -37,6 +48,7 @@ form{
 
 input{
     width: 200px;
+    
 }
 
 main{
@@ -54,3 +66,6 @@ main{
     margin-bottom: 10px;
 }
 
+label{
+    font-size: 18px;
+}
